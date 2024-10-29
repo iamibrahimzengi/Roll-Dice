@@ -23,7 +23,7 @@ type DiceProps = PropsWithChildren<{
 // Optional configuration
 const options = {
   enableVibrateFallback: true,
-  ignoreAndroidSystemSettings: false,
+  ignoreAndroidSystemSettings: true,
 };
 
 const Dice = ({imageUrl}: DiceProps): JSX.Element => {
